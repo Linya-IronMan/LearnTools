@@ -4,7 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
-  "dependencies": {},
+  "dependencies": {
+    "adm-zip": "^0.5.12",
+    "fs-extra": "^11.2.0"
+  },
   "devDependencies": {
     "@types/node": "^20.11.25"
   },

@@ -1,0 +1,22 @@
+curl 'https://api.wolai.com/v1/exportMarkdown' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Cookie: wolai_client_id=2j4rcgv1wJCP7BgttVLd7o; xlly_s=1; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIzdU1tYkFYSzlQZkVaOVFXZkNSWjVaIiwiaWF0IjoxNzE0NDYyODAxLCJleHAiOjIwMjk4MjI4MDF9.g2VViO-VvS9OZH3glTAdaRpS6KaHj5aIarRNxOUyvOs; tfstk=fGgqpCmVoPDWRrmgU8aaUoq5uB4Y4ypQSVw_sfcgG-2clZ6i4XD85InjsRkZF8dOBSE6PgMnjOC_mGBNqVM81rtxhP5gk4if5-9Y7fDQ7p9BReGxMrUMdpwRrkBT-SSgION0ZUxIr5N9ReGxikjlZ4YB6bcEfRwgSoqcZ_28T54gjR2ka5V1nGbmIbAz68bgIRbcEUV36OVDrGcigaPQmKnFqMHAz6EzKj2mG03lblIxH87dJ4oz7JbaUNbizSclVhk1oeyocc0brqvlpzcKVxVz8F5aaDluoSk9JZUmtbmg0V-19RnrZDZr2sOYaqlE7WrlEIytlxuaD2vCy-mryVzjVK7QBlmSkk3XEZznvjajjYAGSRousgyRB7xiyVhGgGr0w7yBaQvUqnA4-qfiyGITqUFzdINfXGE0d7yBaQSOXuv0aJObG; acw_tc=1-6630a909-169a44e8-59e7ce3df56d6d7e662573bdb3769eb1371ba4bf538e; isg=BCYmzwQ6fIHFoSvvqXAjshhZd5qoB2rBbvAeoxDNJMkkk8KtaJZB00Ql648fO2LZ' \
+  -H 'Origin: https://www.wolai.com' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36' \
+  -H 'reqId: 6XWXUe7u3e5Vs31fGVok13' \
+  -H 'sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'wolai-app-version: 1.2.1-3' \
+  -H 'wolai-client-platform: web' \
+  -H 'wolai-client-version;' \
+  -H 'wolai-os-platform: mac' \
+  -H 'x-client-timeoffset: -480' \
+  -H 'x-client-timezone: Asia/Shanghai' \
+  --data-raw '{"pageId":"bXUrYVgPXz1Zg6Aorkakax","pageTitle":"海纳百川 —— 基础篇","options":{"recoverTree":true,"generateToc":"auto","includeSubPage":false}}'
